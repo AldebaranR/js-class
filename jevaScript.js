@@ -30,3 +30,19 @@ let personas=[
     {nombre: "Uri", edad: 23},
     {nombre: "Kike", edad: 13},
 ]
+
+
+let trabajadores=[
+    {nombre: "Alan", edad: "senior"},
+    {nombre: "a", edad: "junior"},
+    {nombre: "b", edad: "fullstack"},
+    {nombre: "c", edad: "back"},
+    {nombre: "d", edad: "front"},
+    {nombre: "f", edad: "scrum master"},
+    {nombre: "h", edad: "lider de desarrollo"},
+    {nombre: "j", edad: "lider de proyecto"},
+    {nombre: "k", edad: "developer app mobile"},
+    {nombre: "p", edad: "developer db"},
+]
+console.log(trabajadores.filter(funcionprueba=>trabajadores.edad="back"))
+console.log("hola")
